@@ -5,7 +5,13 @@ AllCops:
   - Gemfile
   - Rakefile
   - 'test/**/*'
-  - 'examples/**/*'
+  # This is delicate; we want to include examples/plugins/*/lib
+  # but not anything else.
+  - 'examples/*profile*/**/*'
+  - 'examples/kitchen*/**/*'
+  - 'examples/inheritance/**/*'
+  - 'examples/custom-resource/**/*'
+  - 'examples/plugins/*/test/**/*'
   - 'vendor/**/*'
   - 'lib/plugins/inspec-*/test/**/*'
   - 'lib/bundles/inspec-init/templates/**/*'
