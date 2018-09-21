@@ -1,0 +1,10 @@
+name: profile-salesforce
+title: Salesforce Profile
+maintainer: Daniel Mirsky
+copyright: Chef Software, Inc., Daniel Mirsky
+copyright_email: support@chef.io, gomirsky@gmail.com
+license: Apache-2.0 for original content, Proprietary for additiona
+summary: Demonstrates the use of InSpec Compliance Profile for Salesforce
+version: 1.0.0
+supports:
+  - os-family: unix
